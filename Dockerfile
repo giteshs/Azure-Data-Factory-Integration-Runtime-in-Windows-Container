@@ -4,7 +4,7 @@ ARG INSTALL_JDK=false
 # Download the latest self-hosted integration runtime installer into the SHIR folder
 COPY SHIR C:/SHIR/
 
-RUN ["powershell", "C:/SHIR/build.ps1"]
+RUN ["powershell", "C:/SHIR/builds.ps1"]
 
 ENTRYPOINT ["powershell", "C:/SHIR/setup.ps1"]
 
