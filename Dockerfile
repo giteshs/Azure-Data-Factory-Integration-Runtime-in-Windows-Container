@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/windows:21H2
+FROM mcr.microsoft.com/windows/server
 ARG INSTALL_JDK=false
 
 # Download the latest self-hosted integration runtime installer into the SHIR folder
